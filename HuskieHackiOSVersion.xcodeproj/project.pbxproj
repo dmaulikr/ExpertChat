@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4980EAA9EDE59FE72BA0DC24 /* Pods_HuskieHackiOSVersionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDE6BC7F004B88A05978245 /* Pods_HuskieHackiOSVersionUITests.framework */; };
+		4B67B16E471DA3A2C91351F5 /* Pods_HuskieHackiOSVersionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB01C67D338B42C2D19A5BE4 /* Pods_HuskieHackiOSVersionTests.framework */; };
+		C12ED6331DCF059900163294 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12ED6321DCF059900163294 /* ChatViewController.swift */; };
+		C12ED6351DCF0A6200163294 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C12ED6341DCF0A6200163294 /* GoogleService-Info.plist */; };
+		C16ABAFF1DCF22DC00FA027F /* JSQMessagesViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16ABAFE1DCF22DC00FA027F /* JSQMessagesViewController.framework */; };
+		C194ABAB1DCEB3B2009E655D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194ABAA1DCEB3B2009E655D /* AppDelegate.swift */; };
+		C194ABAD1DCEB3B2009E655D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194ABAC1DCEB3B2009E655D /* ViewController.swift */; };
+		C194ABB01DCEB3B2009E655D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C194ABAE1DCEB3B2009E655D /* Main.storyboard */; };
+		C194ABB31DCEB3B3009E655D /* HuskieHackiOSVersion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C194ABB11DCEB3B2009E655D /* HuskieHackiOSVersion.xcdatamodeld */; };
+		C194ABB51DCEB3B3009E655D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C194ABB41DCEB3B3009E655D /* Assets.xcassets */; };
+		C194ABB81DCEB3B3009E655D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C194ABB61DCEB3B3009E655D /* LaunchScreen.storyboard */; };
+		C194ABC31DCEB3B3009E655D /* HuskieHackiOSVersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194ABC21DCEB3B3009E655D /* HuskieHackiOSVersionTests.swift */; };
+		C194ABCE1DCEB3B3009E655D /* HuskieHackiOSVersionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194ABCD1DCEB3B3009E655D /* HuskieHackiOSVersionUITests.swift */; };
+		C194ABDD1DCEB417009E655D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C194ABDB1DCEB417009E655D /* Bolts.framework */; };
+		C194ABDE1DCEB417009E655D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C194ABDC1DCEB417009E655D /* Parse.framework */; };
+		C194ABE11DCEB424009E655D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C194ABE01DCEB424009E655D /* libsqlite3.tbd */; };
+		C194ABE31DCEB55C009E655D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194ABE21DCEB55C009E655D /* Config.swift */; };
+		C194ABE51DCEB60B009E655D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C194ABE41DCEB60B009E655D /* AVFoundation.framework */; };
+		C194ABE71DCEB617009E655D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C194ABE61DCEB617009E655D /* SystemConfiguration.framework */; };
+		C194ABE91DCEB6AC009E655D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C194ABE81DCEB6AC009E655D /* AudioToolbox.framework */; };
+		C194ABEB1DCEB7EA009E655D /* loginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C194ABEA1DCEB7EA009E655D /* loginButton.png */; };
+		C194ABEE1DCEB865009E655D /* registerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C194ABED1DCEB865009E655D /* registerButton.png */; };
+		C194ABF01DCEBB1F009E655D /* RegisterAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194ABEF1DCEBB1F009E655D /* RegisterAccountViewController.swift */; };
+		C194ABF21DCEDDAE009E655D /* needExpert.png in Resources */ = {isa = PBXBuildFile; fileRef = C194ABF11DCEDDAE009E655D /* needExpert.png */; };
+		C194ABF41DCEDDB3009E655D /* amExpert.png in Resources */ = {isa = PBXBuildFile; fileRef = C194ABF31DCEDDB3009E655D /* amExpert.png */; };
+		C194ABF61DCEDED6009E655D /* ChooseExpertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194ABF51DCEDED6009E655D /* ChooseExpertViewController.swift */; };
+		C1A4E0A61DCF29F000D62F9F /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4E0A51DCF29F000D62F9F /* Channel.swift */; };
+		C1A4E0B41DCF362200D62F9F /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4E0B31DCF362200D62F9F /* UIImage+Gif.swift */; };
+		DA3B1D1627FA585D74ED0042 /* Pods_HuskieHackiOSVersion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DFCF146E16EF387D527139 /* Pods_HuskieHackiOSVersion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C194ABBF1DCEB3B3009E655D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C194AB9F1DCEB3B2009E655D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C194ABA61DCEB3B2009E655D;
+			remoteInfo = HuskieHackiOSVersion;
+		};
+		C194ABCA1DCEB3B3009E655D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C194AB9F1DCEB3B2009E655D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C194ABA61DCEB3B2009E655D;
+			remoteInfo = HuskieHackiOSVersion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E363A00297BD65545B50955 /* Pods-HuskieHackiOSVersionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuskieHackiOSVersionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuskieHackiOSVersionTests/Pods-HuskieHackiOSVersionTests.release.xcconfig"; sourceTree = "<group>"; };
+		58D70682E6D09DE692FD0A3B /* Pods-HuskieHackiOSVersion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuskieHackiOSVersion.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuskieHackiOSVersion/Pods-HuskieHackiOSVersion.release.xcconfig"; sourceTree = "<group>"; };
+		5D0386771B7A3E3A9C5C0C10 /* Pods-HuskieHackiOSVersionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuskieHackiOSVersionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuskieHackiOSVersionUITests/Pods-HuskieHackiOSVersionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70DFCF146E16EF387D527139 /* Pods_HuskieHackiOSVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuskieHackiOSVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E489B73566DB7140AAF010 /* Pods-HuskieHackiOSVersionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuskieHackiOSVersionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuskieHackiOSVersionTests/Pods-HuskieHackiOSVersionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8D6A79A49A37F15C9650A1D /* Pods-HuskieHackiOSVersionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuskieHackiOSVersionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuskieHackiOSVersionUITests/Pods-HuskieHackiOSVersionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C12ED6321DCF059900163294 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C12ED6341DCF0A6200163294 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C16ABAFE1DCF22DC00FA027F /* JSQMessagesViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSQMessagesViewController.framework; path = "Pods/../build/Debug-iphoneos/JSQMessagesViewController/JSQMessagesViewController.framework"; sourceTree = "<group>"; };
+		C194ABA71DCEB3B2009E655D /* HuskieHackiOSVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuskieHackiOSVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C194ABAA1DCEB3B2009E655D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C194ABAC1DCEB3B2009E655D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C194ABAF1DCEB3B2009E655D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C194ABB21DCEB3B3009E655D /* HuskieHackiOSVersion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HuskieHackiOSVersion.xcdatamodel; sourceTree = "<group>"; };
+		C194ABB41DCEB3B3009E655D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C194ABB71DCEB3B3009E655D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C194ABB91DCEB3B3009E655D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C194ABBE1DCEB3B3009E655D /* HuskieHackiOSVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuskieHackiOSVersionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C194ABC21DCEB3B3009E655D /* HuskieHackiOSVersionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuskieHackiOSVersionTests.swift; sourceTree = "<group>"; };
+		C194ABC41DCEB3B3009E655D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C194ABC91DCEB3B3009E655D /* HuskieHackiOSVersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuskieHackiOSVersionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C194ABCD1DCEB3B3009E655D /* HuskieHackiOSVersionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuskieHackiOSVersionUITests.swift; sourceTree = "<group>"; };
+		C194ABCF1DCEB3B3009E655D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C194ABDB1DCEB417009E655D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = media/Bolts.framework; sourceTree = "<group>"; };
+		C194ABDC1DCEB417009E655D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = media/Parse.framework; sourceTree = "<group>"; };
+		C194ABE01DCEB424009E655D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C194ABE21DCEB55C009E655D /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C194ABE41DCEB60B009E655D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C194ABE61DCEB617009E655D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C194ABE81DCEB6AC009E655D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C194ABEA1DCEB7EA009E655D /* loginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginButton.png; path = media/loginButton.png; sourceTree = "<group>"; };
+		C194ABED1DCEB865009E655D /* registerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = registerButton.png; path = media/registerButton.png; sourceTree = "<group>"; };
+		C194ABEF1DCEBB1F009E655D /* RegisterAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterAccountViewController.swift; sourceTree = "<group>"; };
+		C194ABF11DCEDDAE009E655D /* needExpert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = needExpert.png; path = media/needExpert.png; sourceTree = "<group>"; };
+		C194ABF31DCEDDB3009E655D /* amExpert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amExpert.png; path = media/amExpert.png; sourceTree = "<group>"; };
+		C194ABF51DCEDED6009E655D /* ChooseExpertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseExpertViewController.swift; sourceTree = "<group>"; };
+		C1A4E0A51DCF29F000D62F9F /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		C1A4E0B31DCF362200D62F9F /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		E9542ABD275B0D5B396C2878 /* Pods-HuskieHackiOSVersion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuskieHackiOSVersion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuskieHackiOSVersion/Pods-HuskieHackiOSVersion.debug.xcconfig"; sourceTree = "<group>"; };
+		EB01C67D338B42C2D19A5BE4 /* Pods_HuskieHackiOSVersionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuskieHackiOSVersionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDE6BC7F004B88A05978245 /* Pods_HuskieHackiOSVersionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuskieHackiOSVersionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C194ABA41DCEB3B2009E655D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16ABAFF1DCF22DC00FA027F /* JSQMessagesViewController.framework in Frameworks */,
+				C194ABE91DCEB6AC009E655D /* AudioToolbox.framework in Frameworks */,
+				C194ABE71DCEB617009E655D /* SystemConfiguration.framework in Frameworks */,
+				C194ABE51DCEB60B009E655D /* AVFoundation.framework in Frameworks */,
+				C194ABE11DCEB424009E655D /* libsqlite3.tbd in Frameworks */,
+				C194ABDE1DCEB417009E655D /* Parse.framework in Frameworks */,
+				C194ABDD1DCEB417009E655D /* Bolts.framework in Frameworks */,
+				DA3B1D1627FA585D74ED0042 /* Pods_HuskieHackiOSVersion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C194ABBB1DCEB3B3009E655D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B67B16E471DA3A2C91351F5 /* Pods_HuskieHackiOSVersionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C194ABC61DCEB3B3009E655D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4980EAA9EDE59FE72BA0DC24 /* Pods_HuskieHackiOSVersionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C194AB9E1DCEB3B2009E655D = {
+			isa = PBXGroup;
+			children = (
+				C194ABA91DCEB3B2009E655D /* HuskieHackiOSVersion */,
+				C194ABC11DCEB3B3009E655D /* HuskieHackiOSVersionTests */,
+				C194ABCC1DCEB3B3009E655D /* HuskieHackiOSVersionUITests */,
+				C194ABA81DCEB3B2009E655D /* Products */,
+				C194ABEC1DCEB7F0009E655D /* Images */,
+				C194ABDF1DCEB424009E655D /* Frameworks */,
+				DFB37FCD281800D987DAB83F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C194ABA81DCEB3B2009E655D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C194ABA71DCEB3B2009E655D /* HuskieHackiOSVersion.app */,
+				C194ABBE1DCEB3B3009E655D /* HuskieHackiOSVersionTests.xctest */,
+				C194ABC91DCEB3B3009E655D /* HuskieHackiOSVersionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C194ABA91DCEB3B2009E655D /* HuskieHackiOSVersion */ = {
+			isa = PBXGroup;
+			children = (
+				C194ABAA1DCEB3B2009E655D /* AppDelegate.swift */,
+				C194ABAC1DCEB3B2009E655D /* ViewController.swift */,
+				C194ABEF1DCEBB1F009E655D /* RegisterAccountViewController.swift */,
+				C194ABF51DCEDED6009E655D /* ChooseExpertViewController.swift */,
+				C12ED6321DCF059900163294 /* ChatViewController.swift */,
+				C194ABAE1DCEB3B2009E655D /* Main.storyboard */,
+				C194ABB41DCEB3B3009E655D /* Assets.xcassets */,
+				C194ABB61DCEB3B3009E655D /* LaunchScreen.storyboard */,
+				C194ABB91DCEB3B3009E655D /* Info.plist */,
+				C12ED6341DCF0A6200163294 /* GoogleService-Info.plist */,
+				C194ABB11DCEB3B2009E655D /* HuskieHackiOSVersion.xcdatamodeld */,
+				C194ABE21DCEB55C009E655D /* Config.swift */,
+				C1A4E0A51DCF29F000D62F9F /* Channel.swift */,
+				C1A4E0B31DCF362200D62F9F /* UIImage+Gif.swift */,
+			);
+			path = HuskieHackiOSVersion;
+			sourceTree = "<group>";
+		};
+		C194ABC11DCEB3B3009E655D /* HuskieHackiOSVersionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C194ABC21DCEB3B3009E655D /* HuskieHackiOSVersionTests.swift */,
+				C194ABC41DCEB3B3009E655D /* Info.plist */,
+			);
+			path = HuskieHackiOSVersionTests;
+			sourceTree = "<group>";
+		};
+		C194ABCC1DCEB3B3009E655D /* HuskieHackiOSVersionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C194ABCD1DCEB3B3009E655D /* HuskieHackiOSVersionUITests.swift */,
+				C194ABCF1DCEB3B3009E655D /* Info.plist */,
+			);
+			path = HuskieHackiOSVersionUITests;
+			sourceTree = "<group>";
+		};
+		C194ABDF1DCEB424009E655D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C16ABAFE1DCF22DC00FA027F /* JSQMessagesViewController.framework */,
+				C194ABE81DCEB6AC009E655D /* AudioToolbox.framework */,
+				C194ABE61DCEB617009E655D /* SystemConfiguration.framework */,
+				C194ABE41DCEB60B009E655D /* AVFoundation.framework */,
+				C194ABE01DCEB424009E655D /* libsqlite3.tbd */,
+				C194ABDB1DCEB417009E655D /* Bolts.framework */,
+				C194ABDC1DCEB417009E655D /* Parse.framework */,
+				70DFCF146E16EF387D527139 /* Pods_HuskieHackiOSVersion.framework */,
+				EB01C67D338B42C2D19A5BE4 /* Pods_HuskieHackiOSVersionTests.framework */,
+				FEDE6BC7F004B88A05978245 /* Pods_HuskieHackiOSVersionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C194ABEC1DCEB7F0009E655D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C194ABED1DCEB865009E655D /* registerButton.png */,
+				C194ABF31DCEDDB3009E655D /* amExpert.png */,
+				C194ABF11DCEDDAE009E655D /* needExpert.png */,
+				C194ABEA1DCEB7EA009E655D /* loginButton.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DFB37FCD281800D987DAB83F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9542ABD275B0D5B396C2878 /* Pods-HuskieHackiOSVersion.debug.xcconfig */,
+				58D70682E6D09DE692FD0A3B /* Pods-HuskieHackiOSVersion.release.xcconfig */,
+				92E489B73566DB7140AAF010 /* Pods-HuskieHackiOSVersionTests.debug.xcconfig */,
+				4E363A00297BD65545B50955 /* Pods-HuskieHackiOSVersionTests.release.xcconfig */,
+				A8D6A79A49A37F15C9650A1D /* Pods-HuskieHackiOSVersionUITests.debug.xcconfig */,
+				5D0386771B7A3E3A9C5C0C10 /* Pods-HuskieHackiOSVersionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C194ABA61DCEB3B2009E655D /* HuskieHackiOSVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C194ABD21DCEB3B3009E655D /* Build configuration list for PBXNativeTarget "HuskieHackiOSVersion" */;
+			buildPhases = (
+				8319C74F19C05F97051103A0 /* [CP] Check Pods Manifest.lock */,
+				C194ABA31DCEB3B2009E655D /* Sources */,
+				C194ABA41DCEB3B2009E655D /* Frameworks */,
+				C194ABA51DCEB3B2009E655D /* Resources */,
+				686284A741B867798D5F3872 /* [CP] Embed Pods Frameworks */,
+				F973F231257C6019C15B61F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuskieHackiOSVersion;
+			productName = HuskieHackiOSVersion;
+			productReference = C194ABA71DCEB3B2009E655D /* HuskieHackiOSVersion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C194ABBD1DCEB3B3009E655D /* HuskieHackiOSVersionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C194ABD51DCEB3B3009E655D /* Build configuration list for PBXNativeTarget "HuskieHackiOSVersionTests" */;
+			buildPhases = (
+				0D27D3FEB8A5528D1FFA0ACF /* [CP] Check Pods Manifest.lock */,
+				C194ABBA1DCEB3B3009E655D /* Sources */,
+				C194ABBB1DCEB3B3009E655D /* Frameworks */,
+				C194ABBC1DCEB3B3009E655D /* Resources */,
+				C31F3C60A3A23988DB838C02 /* [CP] Embed Pods Frameworks */,
+				11200D0727B896B69C0FDB27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C194ABC01DCEB3B3009E655D /* PBXTargetDependency */,
+			);
+			name = HuskieHackiOSVersionTests;
+			productName = HuskieHackiOSVersionTests;
+			productReference = C194ABBE1DCEB3B3009E655D /* HuskieHackiOSVersionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C194ABC81DCEB3B3009E655D /* HuskieHackiOSVersionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C194ABD81DCEB3B3009E655D /* Build configuration list for PBXNativeTarget "HuskieHackiOSVersionUITests" */;
+			buildPhases = (
+				93A1A7286BF4CEC14A59D168 /* [CP] Check Pods Manifest.lock */,
+				C194ABC51DCEB3B3009E655D /* Sources */,
+				C194ABC61DCEB3B3009E655D /* Frameworks */,
+				C194ABC71DCEB3B3009E655D /* Resources */,
+				EFCDC29E450A5325A3FB264D /* [CP] Copy Pods Resources */,
+				88E58E797DADA69FE3E9A28C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C194ABCB1DCEB3B3009E655D /* PBXTargetDependency */,
+			);
+			name = HuskieHackiOSVersionUITests;
+			productName = HuskieHackiOSVersionUITests;
+			productReference = C194ABC91DCEB3B3009E655D /* HuskieHackiOSVersionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C194AB9F1DCEB3B2009E655D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Rohan Daruwala";
+				TargetAttributes = {
+					C194ABA61DCEB3B2009E655D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RU3H5RHWF8;
+						ProvisioningStyle = Automatic;
+					};
+					C194ABBD1DCEB3B3009E655D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RU3H5RHWF8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C194ABA61DCEB3B2009E655D;
+					};
+					C194ABC81DCEB3B3009E655D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RU3H5RHWF8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C194ABA61DCEB3B2009E655D;
+					};
+				};
+			};
+			buildConfigurationList = C194ABA21DCEB3B2009E655D /* Build configuration list for PBXProject "HuskieHackiOSVersion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C194AB9E1DCEB3B2009E655D;
+			productRefGroup = C194ABA81DCEB3B2009E655D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C194ABA61DCEB3B2009E655D /* HuskieHackiOSVersion */,
+				C194ABBD1DCEB3B3009E655D /* HuskieHackiOSVersionTests */,
+				C194ABC81DCEB3B3009E655D /* HuskieHackiOSVersionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C194ABA51DCEB3B2009E655D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C194ABB81DCEB3B3009E655D /* LaunchScreen.storyboard in Resources */,
+				C12ED6351DCF0A6200163294 /* GoogleService-Info.plist in Resources */,
+				C194ABF41DCEDDB3009E655D /* amExpert.png in Resources */,
+				C194ABB51DCEB3B3009E655D /* Assets.xcassets in Resources */,
+				C194ABB01DCEB3B2009E655D /* Main.storyboard in Resources */,
+				C194ABF21DCEDDAE009E655D /* needExpert.png in Resources */,
+				C194ABEE1DCEB865009E655D /* registerButton.png in Resources */,
+				C194ABEB1DCEB7EA009E655D /* loginButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C194ABBC1DCEB3B3009E655D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C194ABC71DCEB3B3009E655D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D27D3FEB8A5528D1FFA0ACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		11200D0727B896B69C0FDB27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuskieHackiOSVersionTests/Pods-HuskieHackiOSVersionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		686284A741B867798D5F3872 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuskieHackiOSVersion/Pods-HuskieHackiOSVersion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8319C74F19C05F97051103A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88E58E797DADA69FE3E9A28C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuskieHackiOSVersionUITests/Pods-HuskieHackiOSVersionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93A1A7286BF4CEC14A59D168 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C31F3C60A3A23988DB838C02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuskieHackiOSVersionTests/Pods-HuskieHackiOSVersionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFCDC29E450A5325A3FB264D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuskieHackiOSVersionUITests/Pods-HuskieHackiOSVersionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F973F231257C6019C15B61F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuskieHackiOSVersion/Pods-HuskieHackiOSVersion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C194ABA31DCEB3B2009E655D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C194ABF01DCEBB1F009E655D /* RegisterAccountViewController.swift in Sources */,
+				C1A4E0A61DCF29F000D62F9F /* Channel.swift in Sources */,
+				C194ABB31DCEB3B3009E655D /* HuskieHackiOSVersion.xcdatamodeld in Sources */,
+				C1A4E0B41DCF362200D62F9F /* UIImage+Gif.swift in Sources */,
+				C194ABE31DCEB55C009E655D /* Config.swift in Sources */,
+				C12ED6331DCF059900163294 /* ChatViewController.swift in Sources */,
+				C194ABAD1DCEB3B2009E655D /* ViewController.swift in Sources */,
+				C194ABF61DCEDED6009E655D /* ChooseExpertViewController.swift in Sources */,
+				C194ABAB1DCEB3B2009E655D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C194ABBA1DCEB3B3009E655D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C194ABC31DCEB3B3009E655D /* HuskieHackiOSVersionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C194ABC51DCEB3B3009E655D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C194ABCE1DCEB3B3009E655D /* HuskieHackiOSVersionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C194ABC01DCEB3B3009E655D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C194ABA61DCEB3B2009E655D /* HuskieHackiOSVersion */;
+			targetProxy = C194ABBF1DCEB3B3009E655D /* PBXContainerItemProxy */;
+		};
+		C194ABCB1DCEB3B3009E655D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C194ABA61DCEB3B2009E655D /* HuskieHackiOSVersion */;
+			targetProxy = C194ABCA1DCEB3B3009E655D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C194ABAE1DCEB3B2009E655D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C194ABAF1DCEB3B2009E655D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C194ABB61DCEB3B3009E655D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C194ABB71DCEB3B3009E655D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C194ABD01DCEB3B3009E655D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C194ABD11DCEB3B3009E655D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C194ABD31DCEB3B3009E655D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9542ABD275B0D5B396C2878 /* Pods-HuskieHackiOSVersion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RU3H5RHWF8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/media",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/JSQMessagesViewController",
+				);
+				INFOPLIST_FILE = HuskieHackiOSVersion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohandaruwala.HuskieHackiOSVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C194ABD41DCEB3B3009E655D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D70682E6D09DE692FD0A3B /* Pods-HuskieHackiOSVersion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RU3H5RHWF8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/media",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/JSQMessagesViewController",
+				);
+				INFOPLIST_FILE = HuskieHackiOSVersion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohandaruwala.HuskieHackiOSVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C194ABD61DCEB3B3009E655D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E489B73566DB7140AAF010 /* Pods-HuskieHackiOSVersionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RU3H5RHWF8;
+				INFOPLIST_FILE = HuskieHackiOSVersionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohandaruwala.HuskieHackiOSVersionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuskieHackiOSVersion.app/HuskieHackiOSVersion";
+			};
+			name = Debug;
+		};
+		C194ABD71DCEB3B3009E655D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E363A00297BD65545B50955 /* Pods-HuskieHackiOSVersionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RU3H5RHWF8;
+				INFOPLIST_FILE = HuskieHackiOSVersionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohandaruwala.HuskieHackiOSVersionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuskieHackiOSVersion.app/HuskieHackiOSVersion";
+			};
+			name = Release;
+		};
+		C194ABD91DCEB3B3009E655D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D6A79A49A37F15C9650A1D /* Pods-HuskieHackiOSVersionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RU3H5RHWF8;
+				INFOPLIST_FILE = HuskieHackiOSVersionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohandaruwala.HuskieHackiOSVersionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HuskieHackiOSVersion;
+			};
+			name = Debug;
+		};
+		C194ABDA1DCEB3B3009E655D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0386771B7A3E3A9C5C0C10 /* Pods-HuskieHackiOSVersionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RU3H5RHWF8;
+				INFOPLIST_FILE = HuskieHackiOSVersionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohandaruwala.HuskieHackiOSVersionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HuskieHackiOSVersion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C194ABA21DCEB3B2009E655D /* Build configuration list for PBXProject "HuskieHackiOSVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C194ABD01DCEB3B3009E655D /* Debug */,
+				C194ABD11DCEB3B3009E655D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C194ABD21DCEB3B3009E655D /* Build configuration list for PBXNativeTarget "HuskieHackiOSVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C194ABD31DCEB3B3009E655D /* Debug */,
+				C194ABD41DCEB3B3009E655D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C194ABD51DCEB3B3009E655D /* Build configuration list for PBXNativeTarget "HuskieHackiOSVersionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C194ABD61DCEB3B3009E655D /* Debug */,
+				C194ABD71DCEB3B3009E655D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C194ABD81DCEB3B3009E655D /* Build configuration list for PBXNativeTarget "HuskieHackiOSVersionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C194ABD91DCEB3B3009E655D /* Debug */,
+				C194ABDA1DCEB3B3009E655D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C194ABB11DCEB3B2009E655D /* HuskieHackiOSVersion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C194ABB21DCEB3B3009E655D /* HuskieHackiOSVersion.xcdatamodel */,
+			);
+			currentVersion = C194ABB21DCEB3B3009E655D /* HuskieHackiOSVersion.xcdatamodel */;
+			path = HuskieHackiOSVersion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C194AB9F1DCEB3B2009E655D /* Project object */;
+}
